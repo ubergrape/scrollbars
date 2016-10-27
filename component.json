@@ -1,0 +1,24 @@
+{
+  "name": "scrollbars",
+  "repo": "Swatinem/scrollbars",
+  "version": "0.0.1",
+  "description": "An efficient overflow area with custom scrollbars",
+  "keywords": [],
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "scrollbars.css"
+  ],
+  "dependencies": {
+    "eivindfjeldstad/scrollbar-size": "*",
+    "component/events": "*",
+    "component/debounce": "*",
+    "component/classes": "*"
+  },
+  "development": {
+    "chaijs/chai": "*",
+    "tmcw/happen": "*"
+  },
+  "license": "LGPLv3"
+}

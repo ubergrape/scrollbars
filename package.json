@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "component-classes": "^1.2.4",
+    "component-events": "^1.0.9",
+    "debounce": "git://github.com/component/debounce.git",
+    "scrollbar-size": "github:ubergrape/scrollbar-size"
+  },
+  "description": "An efficient overflow area with custom scrollbars",
+  "devDependencies": {
+    "component": "*",
+    "component-istanbul": "*",
+    "component-test": "github:swatinem/component-test",
+    "coveralls": "*",
+    "istanbul": "*",
+    "jshint": "*"
+  },
+  "gitHead": "bcff195a434168ab9e22036dc9f60f1084daca63",
+  "name": "scrollbars",
+  "optionalDependencies": {},
+  "private": true,
+  "readme": "# scrollbars\n\nAn efficient overflow area with custom scrollbars\n\nHeavily influenced by [Trackpad Scroll Emulator](https://github.com/jnicol/trackpad-scroll-emulator),\nbut with support for both directions, without the need to call update on size\nchanges or to wrap the elements in a container and without a nasty jQuery dependency.\n\nYou also can style the scrollbars yourself by overriding the `.scrollbars-handle`\nstyle.\n\n[![Build Status](https://travis-ci.org/Swatinem/scrollbars.png?branch=master)](https://travis-ci.org/Swatinem/scrollbars)\n[![Coverage Status](https://coveralls.io/repos/Swatinem/scrollbars/badge.png?branch=master)](https://coveralls.io/r/Swatinem/scrollbars)\n\n## Installation\n\n    $ component install Swatinem/scrollbars\n\n## Usage\n\n```\nvar scrollbars = require('scrollbars');\n\nvar scroller = scrollbars(document.querySelector('#yourcontainer'));\n\n// if you are done with it:\nscroller.destroy();\n```\n\n## License\n\n  LGPLv3\n\n",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "make test-coveralls"
+  },
+  "version": "0.0.1"
+}
